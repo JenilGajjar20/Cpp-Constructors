@@ -78,8 +78,8 @@ In user defined copy constructor, we make sure that pointers(or reference) of co
 - Assignment Operator is called when an already initialized object is assigned a new value from another existing object. 
 ```
 myClass t1, t2;
-myClass t3 = t1; // eq-1
-t2 = t1; // eq-2
+myClass t3 = t1; // eq<sup>n</sup>-1
+t2 = t1; // eq<sup>n</sup>-2
 ```
 Here, eq-1 calls copy constructor and eq-2 calls assignment operator.
 
