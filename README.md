@@ -78,10 +78,10 @@ In user defined copy constructor, we make sure that pointers(or reference) of co
 - Assignment Operator is called when an already initialized object is assigned a new value from another existing object. 
 ```
 myClass t1, t2;
-myClass t3 = t1; // eq<sup>n</sup>-1
-t2 = t1; // eq<sup>n</sup>-2
+myClass t3 = t1; // eq-1
+t2 = t1; // eq-2
 ```
-Here, eq-1 calls copy constructor and eq-2 calls assignment operator.
+Here, equation-1 calls copy constructor and equation-2 calls assignment operator.
 
 #### Can we make copy constructor private?
 Yes, a copy constructor can be made private. When we make a copy constructor private in a class, objects of that class become non-copyable.
